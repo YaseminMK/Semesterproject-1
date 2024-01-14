@@ -1,6 +1,7 @@
 
 .layout {
     background-color:#FFFFFF;
+    position: relative;
 }
 /*GLOBAL*/
 
@@ -29,7 +30,7 @@ ul {
     position: fixed;
     width: 100%;
     height: 96px;
-    top: 130px;
+    top: 0;
     left: 0;
     background-color:#ffa69730;
     z-index:1;
@@ -38,7 +39,7 @@ ul {
 .navigation-bar-top {
     position: fixed;
     width: 100%;
-    top: 160px;
+    top: 30px;
     left: 0;
     display: flex;
     justify-content: center;
@@ -47,14 +48,16 @@ ul {
 }
 /*Navigation bar text*/
 
-.navbar-link-text{
+.navbar-link-text {
     list-style: none;
     display: flex;
     gap: 25px;
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin-top: 10px;
 }
+
 
 .navbar-link-text-1,
 .navbar-link-text-2,
@@ -73,7 +76,7 @@ ul {
     list-style: none;
     text-decoration: none;
     margin: 0 14px;
-   }
+}
 
 /*Buttons*/
 
@@ -81,8 +84,8 @@ ul {
     display: flex;
     position: fixed;
     gap: 10px;
-    top: 165px;
-    left: 50%;
+    top: 29px;
+    left: 20%;
 }
 
 
@@ -103,7 +106,6 @@ ul {
     padding:15px,14px, 42px;
     border: 1px solid;
     border-radius: 25px;
-    background-color: none;
     border-color: black;
     font-family: 'Mulish',sans-serif;
     font-weight: 200;
@@ -112,12 +114,14 @@ ul {
     letter-spacing: 0;
     line-height: 25.3px;
     white-space: nowrap;
+    margin-top: 10px;
+
     
 }
 
 .button-link-1{
     all: unset;
-    left: 1089px;
+    left: 1450px;
     position: fixed;
     margin-top: -9px;
     margin-bottom: -7px;
@@ -129,7 +133,7 @@ ul {
 
 .button-link-2{
     all: unset;
-    Left: 1221px;
+    left: 1600px;
     position: fixed;
     width: fit-content;
     margin-top: -9px;
@@ -142,4 +146,192 @@ ul {
 
 
 
+/*Header*/
 
+
+.rectangle-H-1,
+.Headline-1 {
+    position: relative;
+    top: 60px;
+    left: 145px;
+    width: 809px;
+    font-family:'Mulish', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #ff4d2f;
+    font-size: 130px;
+    letter-spacing: 2.4px;
+    line-height: 120px;
+    white-space: nowrap;
+    background-color: #ffa69730;
+}
+
+
+
+.rectangle-H-2,
+.Headline-2 {
+    position: relative;
+    top: 160px;
+    left: 557px; 
+    width: 540px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #ff4d2f;
+    font-size: 130px;
+    letter-spacing: 2.4px;
+    line-height: 120px;
+    white-space: nowrap;
+    background-color: #ffa69730;
+}
+
+.rectangle-H-3,
+.Headline-3 {
+    position: relative;
+    top: 200px;
+    left: 800px;
+    width: 562px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #ff4d2f;
+    font-size: 130px;
+    letter-spacing: 2.4px;
+    line-height: 120px;
+    white-space: nowrap;
+    background-color: #ffa69730;
+}
+
+
+/*Images*/
+
+.Images-Header-1 {
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    top: 140px;
+    left: 1350px;
+}
+
+
+.Images-Header-2 {
+    position: absolute;
+    width: 500px;
+    height: 241px;
+    top: 300px;
+    left: 10px;
+}
+
+.Image-Header {
+    position: absolute;
+    width: 100%;
+    height: 459px;
+    top: 280px;
+    left: 0;    
+}
+
+/*Headline-ABOUT THE MUSEUM*/
+
+
+.rectangle-about-1,
+.rectangle-about-2 {
+    background-color: #ffa69730;
+    position: absolute;
+}
+
+
+.About-the-Museum-headline-1,
+.About-the-Museum-headline-2,
+.About-the-Museum-headline-3 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    color: #ff4d2f;
+    letter-spacing: 1.8px;
+    font-style: italic;
+}
+.rectangle-about-1 {
+    width: 18%;
+    top: 1150px;
+    left: 310px;
+    height: 95px;
+}
+
+.About-the-Museum-headline-1 {
+    position: absolute;
+    width: 1084px;
+    height: 95px;
+    top: 1150px;
+    left: 310px;
+    font-size: 90px;
+}
+
+
+.About-the-Museum-headline-2 {
+    position: absolute;
+    width: 1084px;
+    height: 300px;
+    top: 1300px;
+    left: 320px;
+    font-size: 75px;
+}
+
+
+.rectangle-about-2 {
+    width: 40%;
+    top: 1450px;
+    left: 500px;
+    height: 100px;
+}
+
+.About-the-Museum-headline-3 {
+    position: absolute;
+    width: 1084px;
+    height: 300px;
+    top: 1480px; 
+    left: 510px;
+    font-size: 40px;
+}
+
+
+/*ABOUT THE MUSEUM*/
+
+.About-the-Museum-txt {
+    position: absolute;
+    width: 693px;
+    top: 1300px;
+    left: 1000px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: #0d0d0d;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: 25.3px;
+    margin-top: 25px;
+}
+
+.line-1 {
+    position: absolute;
+    width: 1500px;
+    height: 1px;
+    top: 1900px;
+    left: 300px;
+    object-fit: cover;
+}
+
+.Navigation-pages-4 {
+    position: absolute;
+    width: 178px;
+    left: 105px;
+    font-family: Mulish', sans-serif;
+    font-weight: 400;
+    color: #ff4d2f;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.Navigation-pages-2 {
+    left: 300px;
+    top: 2000px;
+}
